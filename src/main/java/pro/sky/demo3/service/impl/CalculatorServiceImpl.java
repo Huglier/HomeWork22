@@ -21,7 +21,7 @@ public class CalculatorServiceImpl implements CalculatorService {
     @Override
     public Integer divide(Integer value, Integer value2) {
         if (value2 == 0||value == 0){
-            throw new IllegalArgumentException("Дулить на ноль нельзя");
+            throw new IllegalArgumentException("Дeлить на ноль нельзя");
         }
         return value / value2;
     }
